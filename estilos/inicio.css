@@ -1,230 +1,264 @@
 @font-face {
-    font-family: "adieue";
-    src: url("../tipografias/adineuePRO-Regular.ttf");
+  font-family: "adieue";
+  src: url("../tipografias/adineuePRO-Regular.ttf");
+}
+
+nav.navbar {
+  background-color: #fff !important;
 }
 
 .navbar .container-fluid .collapse .navbar-nav .nav-item a {
-    font-family: 'adieue';
+  font-family: "adieue";
 }
-
 
 /*Estilos para la seccion de productos*/
 
 .seccion-productos {
-    height: auto;
-    width: auto;
-    background-color: aqua;
+  height: auto;
+  width: auto;
+  background-color: aqua;
 }
 
 .seccion-productos .div-prduc {
-    padding-top: 2%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .seccion-productos .div-prduc img {
-    width: 40%;
+  width: 40%;
 }
 
 .seccion-productos .div-prduc .div-texto {
-    margin-left: -7%;
+  margin-left: -7%;
 }
 
 .seccion-productos .div-prduc .div-texto a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'adieue';
-    font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "adieue";
+  font-size: 25px;
 }
 
 .seccion-productos .div-prduc .div-texto h2 {
-    color: #fff;
-    font-family: 'adieue';
+  color: #fff;
+  font-family: "adieue";
 }
 
 .seccion-productos .div-producto1 {
-    background-image: linear-gradient(to bottom, #0bb979, #68ca76, #9dda77, #cee87e, #fcf68b);
+  background-image: linear-gradient(
+    to bottom,
+    #0bb979,
+    #68ca76,
+    #9dda77,
+    #cee87e,
+    #fcf68b
+  );
 }
 
 .seccion-productos .div-producto2 {
-    background: rgb(0, 180, 208);
-    background: linear-gradient(180deg, rgba(0, 180, 208, 1) 0%, rgba(165, 228, 241, 1) 55%, rgba(234, 248, 254, 1) 76%);
+  background: rgb(0, 180, 208);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 180, 208, 1) 0%,
+    rgba(165, 228, 241, 1) 55%,
+    rgba(234, 248, 254, 1) 76%
+  );
 }
 
 .seccion-productos .div-producto3 {
-    background: rgb(215, 97, 172);
-    background: linear-gradient(180deg, rgba(215, 97, 172, 1) 0%, rgba(138, 136, 200, 1) 50%, rgba(8, 201, 247, 1) 100%);
+  background: rgb(215, 97, 172);
+  background: linear-gradient(
+    180deg,
+    rgba(215, 97, 172, 1) 0%,
+    rgba(138, 136, 200, 1) 50%,
+    rgba(8, 201, 247, 1) 100%
+  );
 }
 
 @media (max-width: 880px) {
-    .seccion-productos .div-prduc img {
-        width: 35%;
-    }
-    .seccion-productos .div-prduc .div-texto a {
-        font-size: 20px;
-    }
-    .seccion-productos .div-prduc .div-texto h2 {
-        font-size: 18px;
-    }
+  .seccion-productos .div-prduc img {
+    width: 35%;
+  }
+  .seccion-productos .div-prduc .div-texto a {
+    font-size: 20px;
+  }
+  .seccion-productos .div-prduc .div-texto h2 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 575px) {
-    .seccion-productos .div-prduc .div-texto a {
-        font-size: 25px;
-    }
-    .seccion-productos .div-prduc .div-texto h2 {
-        color: #fff;
-        font-size: 20px;
-    }
+  .seccion-productos .div-prduc .div-texto a {
+    font-size: 25px;
+  }
+  .seccion-productos .div-prduc .div-texto h2 {
+    color: #fff;
+    font-size: 20px;
+  }
 }
 
-
-/*Estilos para los productos de SiluetaYa 365*/
+/*Estilos para los productos de SiluetaYa y 365*/
 
 .seccion-productos2 .div-producto-izquierdo,
 .div-producto-derecho {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .seccion-productos2 .boton-explorar {
-    margin-top: 4%;
-    text-decoration: none;
-    padding: 1% 5% 1% 5%;
-    border: solid 2px #fff;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'adieue';
+  margin-top: 4%;
+  text-decoration: none;
+  padding: 1% 5% 1% 5%;
+  border: solid 2px #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "adieue";
 }
 
 .seccion-productos2 .div-siluetaYa {
-    background: url('../images/Fondo-de-SiluetaYa-min.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background: url("../images/Fondo-de-SiluetaYa-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .seccion-productos2 .div-365 {
-    background: url('../images/Fondo-de-SiluetaYa-365-min.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background: url("../images/Fondo-de-SiluetaYa-365-min.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .seccion-productos2 .div-encabezado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .seccion-productos2 .div-encabezado h2 {
-    color: #fff;
-    font-size: 55px;
-    font-family: 'adieue';
+  color: #fff;
+  font-size: 55px;
+  font-family: "adieue";
 }
 
 .seccion-productos2 .div-encabezado p {
-    width: 70%;
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    font-family: 'adieue';
+  width: 90%;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+
+  font-family: "adieue";
 }
 
 .seccion-productos2 .div-cuerpo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .seccion-productos2 .div-cuerpo .producto {
-    width: 325px;
+  width: 325px;
 }
 
 .seccion-productos2 .div-cuerpo .div-flecha {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 60%;
-    margin-top: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60%;
+  width: 30%;
+  margin-top: 9%;
+}
+
+.seccion-productos2 .div-cuerpo .flecha1 {
+  margin-left: -10%;
+}
+
+.seccion-productos2 .div-cuerpo .flecha2 {
+  margin-right: -20%;
 }
 
 .seccion-productos2 .div-cuerpo .div-flecha .flecha {
-    height: 65%;
+  height: 65%;
 }
 
 .seccion-productos2 .div-cuerpo .div-flecha p {
-    width: 40%;
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'adieue';
+  width: 40%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: "adieue";
+}
+
+@media (max-width: 915px) {
+  .seccion-productos2 .div-cuerpo .producto {
+    width: 250px;
+    height: 280px;
+  }
 }
 
 @media (max-width: 860px) {
-    .seccion-productos2 .div-encabezado h2 {
-        color: #fff;
-        font-size: 50px;
-        font-family: 'adieue';
-    }
-    .seccion-productos2 .div-encabezado p {
-        width: 80%;
-        font-size: 19px;
-    }
-    .seccion-productos2 .div-cuerpo .producto {
-        width: 280px;
-    }
+  .seccion-productos2 .div-encabezado h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: "adieue";
+  }
+  .seccion-productos2 .div-encabezado p {
+    width: 80%;
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 385px) {
-    .seccion-productos2 .div-encabezado h2 {
-        font-size: 50px;
-        font-family: 'adieue';
-    }
-    .seccion-productos2 .div-encabezado p {
-        width: 90%;
-        font-size: 19px;
-    }
-    .seccion-productos2 .div-cuerpo .producto {
-        width: 230px;
-        height: 257px;
-    }
-    .seccion-productos2 .div-cuerpo .producto-siluetaYa {
-        margin-left: -20%;
-    }
-    .seccion-productos2 .div-cuerpo .flecha1 {
-        margin-left: -12%;
-        margin-right: 5%;
-        margin-top: 1%;
-    }
-    .seccion-productos2 .div-cuerpo .flecha1 p {
-        width: 80%;
-    }
+  .seccion-productos2 .div-encabezado h2 {
+    font-size: 50px;
+    font-family: "adieue";
+  }
+  .seccion-productos2 .div-encabezado p {
+    width: 90%;
+    font-size: 19px;
+  }
+  .seccion-productos2 .div-cuerpo .producto {
+    width: 200px;
+    height: 228px;
+  }
+  .seccion-productos2 .div-cuerpo .producto-siluetaYa {
+    margin-left: -20%;
+  }
+  .seccion-productos2 .div-cuerpo .flecha1 {
+    margin-left: -10%;
+    margin-right: 15%;
+    margin-top: 1%;
+  }
+
+  .seccion-productos2 .div-cuerpo .flecha1 p {
+    width: 80%;
+  }
 }
 
 @media (max-width: 345px) {
-    .seccion-productos2 .div-encabezado h2 {
-        font-size: 40px;
-    }
-    .seccion-productos2 .div-cuerpo .producto {
-        width: 180px;
-        height: 201px;
-    }
+  .seccion-productos2 .div-encabezado h2 {
+    font-size: 40px;
+  }
+  .seccion-productos2 .div-cuerpo .producto {
+    width: 180px;
+    height: 201px;
+  }
 }
 
 @media (max-width: 290px) {
-    .seccion-productos2 .div-encabezado h2 {
-        font-size: 35px;
-    }
-    .seccion-productos2 .div-cuerpo .producto {
-        width: 150px;
-        height: 168px;
-    }
+  .seccion-productos2 .div-encabezado h2 {
+    font-size: 35px;
+  }
+  .seccion-productos2 .div-cuerpo .producto {
+    width: 150px;
+    height: 168px;
+  }
 }
